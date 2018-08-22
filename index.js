@@ -6,8 +6,7 @@ const config = require('./../config');
 module.exports = {
     pubsub:null,
     init: (projectId) => {
-        
-        this.pubsub = new PubSub({projectId:projectId});
+      this.pubsub = new PubSub({projectId:projectId});
     },
   retryInSeconds: 5,
   solved: async (message) => {
