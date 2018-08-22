@@ -1,0 +1,14 @@
+{
+  "name": "node-pubsub-q",
+  "description": "Set of tools for handling messages between services on pubsub-queues.",
+  "version": "0.1.2",
+  "keywords": ["gcloud", "pubsub", "queue", "tasker", "task", "google-cloud", "@google-cloud", "node-pubsub-q"],
+  "author": "Andrey Bulezyuk <andrey.income@gmail.com>",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.19.0"
+  }
+}
+
