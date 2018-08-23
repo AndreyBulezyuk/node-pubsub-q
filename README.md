@@ -27,7 +27,7 @@ https://github.com/AndreyBulezyuk/node-pubsub-q
 ## Usage
 
 ```sh 
-const pubsubHelper = require('./modules/pubsub-tasker'); 
+const pubsubHelper = require('node-pubsub-q'); 
 pubsubHelper.init(YOUR_GCLOUD_PROJECT_ID);
 ```
 

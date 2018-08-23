@@ -1,7 +1,6 @@
 'use strict';
 
-const PubSub = require(`@google-cloud/pubsub`)  
-const config = require('./../config');
+const PubSub = require(`@google-cloud/pubsub`)
 
 module.exports = {
     pubsub:null,
